@@ -1,0 +1,21 @@
+{
+	"name": "Test-Mid-3d100",
+	"title": "Test Using Middle Value of 3d100",
+	"description": "A variant method of rolling tests in WFRP4e: Roll 3x 1d100 and use the middle value. This produces a curved distribution such that easy things become easier and hard things become harder. This method produces a moderate curve that is not as severe as a normal distribution. It is also relatively easy to perform manually without doing a lot of math or changing a bunch of rules.",
+	"authors": [{
+		"name": "Kevin Bluck"
+	}],
+	"version": "0.0.1",
+	"minimumCoreVersion": "0.8.6",
+	"compatibleCoreVersion": "9",
+  "dependencies": [{
+    "name": "wfrp4e",
+    "type": "system"
+  }],
+  "system": [
+    "wfrp4e"
+  ],
+  "esmodules": [
+    "scripts/test-wfrp4e-mid-3d100.js"
+  ]
+}
